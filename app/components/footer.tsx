@@ -14,10 +14,10 @@ export default function Foot(){
                   </div>
                   <div className="socials flex mb-3">
                      <Link href={'#'} className="me-3">
-                        <Image src = {'app-store-badge.svg'} alt="" width={150} height={60}/>
+                        <Image src = {'/app-store-badge.svg'} alt="" width={150} height={60}/>
                      </Link>
                      <Link href={'#'} className="me-3">
-                        <Image src = {'play-store-badge.svg'} alt="" width={170} height={65}/>
+                        <Image src = {'/play-store-badge.svg'} alt="" width={170} height={65}/>
                      </Link>
                      <Link href={'#'} className="me-3"></Link>
                      <Link href={'#'} className="me-3"></Link>

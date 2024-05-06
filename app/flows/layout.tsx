@@ -12,6 +12,7 @@ import TextField from '@mui/material/TextField';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import { Check, TrendingUp, TrendingDown, East, NorthEast, SouthEast, AltRoute } from '@mui/icons-material'
 import Article from '../components/article';
 import Foot from '../components/footer';
 
@@ -117,27 +118,32 @@ export default function Layout({children}: Readonly<{children: React.ReactNode}>
                <Divider orientation="vertical" sx={{backgroundColor: '#ffffff6b'}} flexItem />
                <div className='flex flex-col justify-start h-full m-6'>
                   <ToggleButtonGroup
-                     color="secondary"
+                     color="primary"
                      value={alignment}
                      exclusive
                      onChange={handleChange}
                      aria-label="Platform"
                   >
-                     <ToggleButton value="current" sx={{textTransform: 'none', color: 'white'}}>Current Filter</ToggleButton>
-                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white'}}>Your Filter</ToggleButton>
+                     <ToggleButton value="current" sx={{textTransform: 'none', color: 'white', padding: '.1rem 1rem', marginBlock: '1rem', border: '0.5px solid blue'}}>Current Filter</ToggleButton>
+                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem 1rem', marginBlock: '1rem', border: '0.5px solid blue'}}>Your Filter</ToggleButton>
                   </ToggleButtonGroup>
 
                   <div className='flex flex-col my-1'>
                      Tickers:
-                     <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+                     <TextField color='primary' id="outlined-basic" label="Outlined" variant="outlined" sx={{ color: 'blue', border: '0.1px solid white' }} />
                   </div>
 
                   {/* SLIDER */}
                   <div>
-                     Sometihing:
-                     <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" />
+                     Minimum Premium:
+                     <Slider 
+                        defaultValue={50} 
+                        aria-label="Default" 
+                        valueLabelDisplay="auto" 
+                     />
                   </div>
                   <div>
+                     Expiration:
                      <Slider
                         getAriaLabel={() => 'Minimum distance'}
                         value={value1}
@@ -145,6 +151,15 @@ export default function Layout({children}: Readonly<{children: React.ReactNode}>
                         valueLabelDisplay="auto"
                         getAriaValueText={valuetext}
                         disableSwap
+                        sx={{
+                           width: '100%',
+                           '& .MuiSlider-thumb': {
+                             borderRadius: '1px',
+                             width: '9px',
+                             height: '20px',
+                              color: 'white',
+                           },
+                         }}
                      />
                   </div>
                   <FormGroup>
@@ -153,6 +168,51 @@ export default function Layout({children}: Readonly<{children: React.ReactNode}>
                      <FormControlLabel control={<Checkbox />} label="Upcoming earnings" />
                      <FormControlLabel control={<Checkbox />} label="Above ask or below bid" />
                   </FormGroup>
+
+                  <ToggleButtonGroup
+                     color="primary"
+                     value={alignment}
+                     onChange={handleChange}
+                     aria-label="Platform"
+                  >
+                     <ToggleButton value="current" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                        <Check fontSize='small' />
+                        <SouthEast color='error'/>
+                     </ToggleButton>
+                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                        <Check fontSize='small' />
+                        <TrendingDown color='error'/>
+                     </ToggleButton>
+                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                        <Check fontSize='small' />
+                        <East htmlColor='gray'/>
+                     </ToggleButton>
+                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                        <Check fontSize='small'/>
+                        <TrendingUp  color='success'/>
+                     </ToggleButton>
+                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                        <Check fontSize='small' />
+                        <NorthEast  color='success'/>
+                     </ToggleButton>
+                  </ToggleButtonGroup>
+
+                  <ToggleButtonGroup
+                     color="primary"
+                     value={alignment}
+                     onChange={handleChange}
+                     aria-label="Platform"
+                  >
+                     <ToggleButton value="current" sx={{textTransform: 'none', color: 'white', padding: '.1rem 1rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                        <Check fontSize='small' />
+                        Buy Side
+                     </ToggleButton>
+                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem 1rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                        <Check fontSize='small' />
+                        Sell Side
+                     </ToggleButton>
+                  </ToggleButtonGroup>
+
                </div>
             </div>
 

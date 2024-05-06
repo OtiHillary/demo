@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Article(){
    return (
       <div className="w-11/12 mx-auto ">
@@ -12,7 +14,7 @@ export default function Article(){
                These trades are then filtered to find the largest and most uncommon trades compared to recent activity, allowing you to easily see the most important trades as they are made in real-time by other traders. 
                These are not theoretical ideas or "signals", these are actual, real trades that others are making.
                `}
-               {/* <Image/> */}
+               <Image src = {'/1.svg'} alt="" width={400} height={300} className="my-6 mx-auto"/>
                {`
                Our summary page shows an overview of which symbols are experiencing the most unusual activity, while the live page will show you the real-time options flow (that is, the actual trades as they are being made). 
                The stocks on the summary page are ordered by a proprietary score to show their sentiment and strength. 
@@ -30,7 +32,8 @@ export default function Article(){
                On other platforms you could easily get the wrong picture by looking at individual trades that are actually interconnected. 
                In addition to showing complex order flow, we show both buy-side and sell-side transactions by detecting the urgency and aggression of the order.
                `}
-               {/* <Image/> */}
+               <Image src = {'/2.svg'} alt="" width={640} height={160} className="my-6 mx-auto"/>
+
                {`
                By clicking on any flow item, you can pull up stats about that particular order including how to replicate that order as well as the performance of the order. 
                We track the performance of each order as soon as it is posted, so you can see the current return of the trade as well as the maximum profit and maximum loss that it has reached so far.
@@ -48,7 +51,7 @@ export default function Article(){
                If they submit an order to buy 1,000 contracts, they may find 100 sellers willing to sell 10 contracts each. To the untrained eye, this could look like 100 smaller trades, just small fish in sea of millions of trades per day. Scanning for options flow involves uncovering this activity by consolidating smaller trades back into the larger order that actually triggered them. Through our analysis, we piece together this activity to discover that it's actually a larger trade, potentially made by an institutional trader (or as the trading community likes to call them, a whale). 
                Such whales may even break up their order into parts like this on purpose or use other tactics to hide their activity.
                `}
-               {/* <Image/> */}
+               <Image src = {'/3.svg'} alt="" width={500} height={160} className="my-6 mx-auto"/>
             </p>
 
             <h1 className="text-2xl font-bold my-3">Using companyName to trade</h1>
