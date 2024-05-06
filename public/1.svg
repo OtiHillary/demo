@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="396" height="168.75" viewBox="0 0 528 225" font-family="Inter">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter");
+    </style>
+    <rect id="Rectangle_154" data-name="Rectangle 154" width="139" height="41" rx="5" fill="#3f1c43"/>
+    <text id="_1K" data-name="$1K" transform="translate(13 26)" fill="#fff" font-size="16.5" font-weight="600"><tspan x="0" y="0">$1K</tspan></text>
+    <text id="SPY" transform="translate(85 26)" fill="#fff" font-size="16.5"><tspan x="0" y="0">SPY</tspan></text>
+    <rect id="Rectangle_154-2" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(146)" fill="#f27052"/>
+    <text id="_900K" data-name="$900K" transform="translate(159 26)" font-size="16.5" font-weight="600"><tspan x="0" y="0">$900K</tspan></text>
+    <text id="GME" transform="translate(231 26)" font-size="16.5"><tspan x="0" y="0">GME</tspan></text>
+    <rect id="Rectangle_154-3" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(0 46)" fill="#e63d42"/>
+    <text id="_410K" data-name="$410K" transform="translate(13 72)" font-size="16.5" font-weight="600"><tspan x="0" y="0">$410K</tspan></text>
+    <text id="NVDA" transform="translate(85 72)" font-size="16.5"><tspan x="0" y="0">NVDA</tspan></text>
+    <rect id="Rectangle_154-4" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(146 46)" fill="#7e1f58"/>
+    <text id="_6K" data-name="$6K" transform="translate(159 72)" fill="#fff" font-size="16.5" font-weight="600"><tspan x="0" y="0">$6K</tspan></text>
+    <text id="NET" transform="translate(231 72)" fill="#fff" font-size="16.5"><tspan x="0" y="0">NET</tspan></text>
+    <rect id="Rectangle_154-5" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(0 92)" fill="#672053"/>
+    <text id="_3K" data-name="$3K" transform="translate(13 118)" fill="#fff" font-size="16.5" font-weight="600"><tspan x="0" y="0">$3K</tspan></text>
+    <text id="TSLA" transform="translate(85 118)" fill="#fff" font-size="16.5"><tspan x="0" y="0">TSLA</tspan></text>
+    <rect id="Rectangle_154-6" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(146 92)" fill="#f6bb9c"/>
+    <text id="_1.2M" data-name="$1.2M" transform="translate(159 118)" font-size="16.5" font-weight="600"><tspan x="0" y="0">$1.2M</tspan></text>
+    <text id="BABA" transform="translate(231 118)" font-size="16.5"><tspan x="0" y="0">BABA</tspan></text>
+    <rect id="Rectangle_154-7" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(0 138)" fill="#3f1c43"/>
+    <text id="_1K-2" data-name="$1K" transform="translate(13 164)" fill="#fff" font-size="16.5" font-weight="600"><tspan x="0" y="0">$1K</tspan></text>
+    <text id="AMD" transform="translate(85 164)" fill="#fff" font-size="16.5"><tspan x="0" y="0">AMD</tspan></text>
+    <rect id="Rectangle_154-8" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(146 138)" fill="#ca1b4f"/>
+    <text id="_30K" data-name="$30K" transform="translate(159 164)" fill="#fff" font-size="16.5" font-weight="600"><tspan x="0" y="0">$30K</tspan></text>
+    <text id="PYPL" transform="translate(231 164)" fill="#fff" font-size="16.5"><tspan x="0" y="0">PYPL</tspan></text>
+    <rect id="Rectangle_154-9" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(0 184)" fill="#7e1f58"/>
+    <text id="_5K" data-name="$5K" transform="translate(13 210)" fill="#fff" font-size="16.5" font-weight="600"><tspan x="0" y="0">$5K</tspan></text>
+    <text id="T" transform="translate(85 210)" fill="#fff" font-size="16.5"><tspan x="0" y="0">T</tspan></text>
+    <rect id="Rectangle_154-10" data-name="Rectangle 154" width="139" height="41" rx="5" transform="translate(146 184)" fill="#672053"/>
+    <text id="_3k-2" data-name="$3k" transform="translate(159 210)" fill="#fff" font-size="16.5" font-weight="600"><tspan x="0" y="0">$3k</tspan></text>
+    <text id="GE" transform="translate(231 210)" fill="#fff" font-size="16.5"><tspan x="0" y="0">GE</tspan></text>
+    <rect id="Rectangle_155" data-name="Rectangle 155" width="139" height="41" rx="5" transform="translate(378 95)" fill="#f27052"/>
+    <text id="_900K-2" data-name="$900K" transform="translate(391 121)" font-size="16.5" font-weight="600"><tspan x="0" y="0">$900K</tspan></text>
+    <text id="GME-2" data-name="GME" transform="translate(463 121)" font-size="16.5"><tspan x="0" y="0">GME</tspan></text>
+    <rect id="Rectangle_156" data-name="Rectangle 156" width="139" height="41" rx="5" transform="translate(389 141)" fill="#e63d42"/>
+    <text id="_410K-2" data-name="$410K" transform="translate(402 167)" font-size="16.5" font-weight="600"><tspan x="0" y="0">$410K</tspan></text>
+    <text id="NVDA-2" data-name="NVDA" transform="translate(474 167)" font-size="16.5"><tspan x="0" y="0">NVDA</tspan></text>
+    <rect id="Rectangle_157" data-name="Rectangle 157" width="139" height="41" rx="5" transform="translate(365 49)" fill="#f6bb9c"/>
+    <text id="_1.2M-2" data-name="$1.2M" transform="translate(378 75)" font-size="16.5" font-weight="600"><tspan x="0" y="0">$1.2M</tspan></text>
+    <text id="BABA-2" data-name="BABA" transform="translate(450 75)" font-size="16.5"><tspan x="0" y="0">BABA</tspan></text>
+    <path id="Polygon_7" data-name="Polygon 7" d="M11.5,0,23,17H0Z" transform="translate(355 104) rotate(90)" fill="#008aef"/>
+    <rect id="Rectangle_158" data-name="Rectangle 158" width="7" height="46" transform="translate(345 112) rotate(90)" fill="#008aef"/>
+</svg>

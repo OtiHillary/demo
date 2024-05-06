@@ -9,7 +9,11 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Slider from '@mui/material/Slider';
 import TextField from '@mui/material/TextField';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 import Article from '../components/article';
+import Foot from '../components/footer';
 
 interface FadeProps {
   children?: React.ReactElement;
@@ -63,7 +67,7 @@ export default function Layout({children}: Readonly<{children: React.ReactNode}>
 
    return (
       <>
-         <nav className='w-full m-4 my-6 flex justify-between'>
+         <nav className='w-11/12 mx-auto p-4 py-6 flex justify-between'>
             <div className="(companyName) flex justify-between text-xl font-semibold my-auto">Company Name</div>
             <div className="(actions) flex justify-between my-auto">
                <div className='mx-5'>
@@ -98,7 +102,8 @@ export default function Layout({children}: Readonly<{children: React.ReactNode}>
                <button className='bg-yellow-300 px-4 py-1 text-black rounded-md font-semibold'>Start Trial</button>
             </div>
          </nav>
-         <section>
+
+         <section className='w-11/12 mx-auto' >
             <div className='flex'>
                <FlowTabs/>
                <Divider orientation="vertical" sx={{backgroundColor: '#ffffff6b'}} flexItem />
@@ -122,10 +127,11 @@ export default function Layout({children}: Readonly<{children: React.ReactNode}>
                      <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white'}}>Your Filter</ToggleButton>
                   </ToggleButtonGroup>
 
-                  <div>
+                  <div className='flex flex-col my-1'>
                      Tickers:
                      <TextField id="outlined-basic" label="Outlined" variant="outlined" />
                   </div>
+
                   {/* SLIDER */}
                   <div>
                      Sometihing:
@@ -141,24 +147,19 @@ export default function Layout({children}: Readonly<{children: React.ReactNode}>
                         disableSwap
                      />
                   </div>
-                  <label>
-                     Out of money
-                  </label>
-                  <label>
-                     {'Volume > OI'}
-                  </label>
-                  <label>
-                     {'Upcoming earnings'}
-                  </label>
-                  <label>
-                     {'Above ask or below bid'}
-                  </label>
+                  <FormGroup>
+                     <FormControlLabel control={<Checkbox />} label=" Out of money" />
+                     <FormControlLabel control={<Checkbox />} label="Volume > OI" />
+                     <FormControlLabel control={<Checkbox />} label="Upcoming earnings" />
+                     <FormControlLabel control={<Checkbox />} label="Above ask or below bid" />
+                  </FormGroup>
                </div>
             </div>
 
          </section>
+
          <Article />
-         {/* <Foot /> */}
+         <Foot />
       </>
    )
 }

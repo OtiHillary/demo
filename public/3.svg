@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="364" height="164" viewBox="0 0 364 164" font-family="Inter">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter");
+    </style>
+    <path id="Path_17" data-name="Path 17" d="M10,0H67A10,10,0,0,1,77,10V67A10,10,0,0,1,67,77H10A10,10,0,0,1,0,67V10A10,10,0,0,1,10,0Z" transform="translate(39 56)" fill="#c7c7c7"/>
+    <rect id="Rectangle_143" data-name="Rectangle 143" width="49" height="49" rx="10" transform="translate(53)" fill="#c7c7c7"/>
+    <rect id="Rectangle_144" data-name="Rectangle 144" width="25" height="25" rx="6" transform="translate(53 139)" fill="#c7c7c7"/>
+    <rect id="Rectangle_146" data-name="Rectangle 146" width="33" height="33" rx="10" transform="translate(0 59)" fill="#c7c7c7"/>
+    <rect id="Rectangle_147" data-name="Rectangle 147" width="19" height="19" rx="6" transform="translate(25 33)" fill="#c7c7c7"/>
+    <rect id="Rectangle_148" data-name="Rectangle 148" width="37" height="37" rx="10" transform="translate(122 92)" fill="#c7c7c7"/>
+    <rect id="Rectangle_149" data-name="Rectangle 149" width="31" height="31" rx="10" transform="translate(122 56)" fill="#c7c7c7"/>
+    <rect id="Rectangle_150" data-name="Rectangle 150" width="19" height="19" rx="6" transform="translate(86 139)" fill="#c7c7c7"/>
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="15" height="15" rx="6" transform="translate(18 99)" fill="#c7c7c7"/>
+    <rect id="Rectangle_152" data-name="Rectangle 152" width="15" height="15" rx="6" transform="translate(18 118)" fill="#c7c7c7"/>
+    <text id="_85K" data-name="85K" transform="translate(46 107)" font-size="32" font-weight="600"><tspan x="0" y="0">85K</tspan></text>
+    <text id="_25K" data-name="25K" transform="translate(55 33)" font-size="22" font-weight="600"><tspan x="0" y="0">25K</tspan></text>
+    <text id="_21K" data-name="21K" transform="translate(125 117)" font-size="18" font-weight="600"><tspan x="0" y="0">21K</tspan></text>
+    <text id="_18K" data-name="18K" transform="translate(1 81)" font-size="16.5" font-weight="600"><tspan x="0" y="0">18K</tspan></text>
+    <text id="_17K" data-name="17K" transform="translate(124 77)" font-size="15.5" font-weight="600"><tspan x="0" y="0">17K</tspan></text>
+    <text id="_9k" data-name="9k" transform="translate(56 157)" font-size="16" font-weight="600"><tspan x="0" y="0">9k</tspan></text>
+    <text id="_7K" data-name="7K" transform="translate(27 47)" font-size="11.5" font-weight="600"><tspan x="0" y="0">7K</tspan></text>
+    <text id="_7K-2" data-name="7K" transform="translate(88 152)" font-size="11.5" font-weight="600"><tspan x="0" y="0">7K</tspan></text>
+    <text id="_3K" data-name="3K" transform="translate(20 110)" font-size="8.5" font-weight="600"><tspan x="0" y="0">3K</tspan></text>
+    <text id="_3K-2" data-name="3K" transform="translate(20 129)" font-size="8.5" font-weight="600"><tspan x="0" y="0">3K</tspan></text>
+    <path id="Path_18" data-name="Path 18" d="M16.753,0h95.493A16.753,16.753,0,0,1,129,16.753v95.493A16.753,16.753,0,0,1,112.247,129H16.753A16.753,16.753,0,0,1,0,112.247V16.753A16.753,16.753,0,0,1,16.753,0Z" transform="translate(235 25)" fill="#008aef"/>
+    <text id="_195K" data-name="195K" transform="translate(244 108)" fill="#fff" font-size="45" font-weight="600"><tspan x="0" y="0">195K</tspan></text>
+    <path id="Polygon_6" data-name="Polygon 6" d="M11.5,0,23,17H0Z" transform="translate(226 83) rotate(90)" fill="#008aef"/>
+    <rect id="Rectangle_153" data-name="Rectangle 153" width="7" height="46" transform="translate(216 91) rotate(90)" fill="#008aef"/>
+</svg>
