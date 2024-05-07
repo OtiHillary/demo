@@ -32,9 +32,25 @@ function valuetext(value: number) {
 export default function Layout({children}: Readonly<{children: React.ReactNode}>){
    const [open, setOpen] = React.useState(false);
    const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-   const [alignment, setAlignment] = React.useState('web');
+   const [alignment, setAlignment] = React.useState('left');
    const [value1, setValue1] = React.useState<number[]>([20, 37]);
- 
+   const [multiple1, setMultiple1] = React.useState(() => ['1', '2', '3', '4', '5', '6', '7']);
+   const [multiple2, setMultiple2] = React.useState(() => ['1', '2']);
+
+  const handleMultiple = (
+    event: React.MouseEvent<HTMLElement>,
+    newMultiple: string[],
+  ) => {
+    setMultiple1(newMultiple);
+  };
+
+  const handleMultiple2 = (
+   event: React.MouseEvent<HTMLElement>,
+   newMultiple: string[],
+ ) => {
+   setMultiple2(newMultiple);
+ };
+
    const handleChange = (
      event: React.MouseEvent<HTMLElement>,
      newAlignment: string,
@@ -170,44 +186,44 @@ export default function Layout({children}: Readonly<{children: React.ReactNode}>
                   </FormGroup>
 
                   <ToggleButtonGroup
-                     color="primary"
-                     value={alignment}
-                     onChange={handleChange}
-                     aria-label="Platform"
+                     color="success"
+                     value={multiple1}
+                     onChange={handleMultiple}
+                     aria-label="Multiple entries"
                   >
-                     <ToggleButton value="current" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                     <ToggleButton value="1" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}} aria-label = '1'>
                         <Check fontSize='small' />
                         <SouthEast color='error'/>
                      </ToggleButton>
-                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                     <ToggleButton value="2" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}} aria-label = '2'>
                         <Check fontSize='small' />
                         <TrendingDown color='error'/>
                      </ToggleButton>
-                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                     <ToggleButton value="3" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}} aria-label = '3'>
                         <Check fontSize='small' />
                         <East htmlColor='gray'/>
                      </ToggleButton>
-                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                     <ToggleButton value="4" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}} aria-label = '4'>
                         <Check fontSize='small'/>
                         <TrendingUp  color='success'/>
                      </ToggleButton>
-                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                     <ToggleButton value="5" sx={{textTransform: 'none', color: 'white', padding: '.1rem .3rem', marginBlock: '.3rem', border: '0.5px solid green'}} aria-label = '5'>
                         <Check fontSize='small' />
                         <NorthEast  color='success'/>
                      </ToggleButton>
                   </ToggleButtonGroup>
 
                   <ToggleButtonGroup
-                     color="primary"
-                     value={alignment}
-                     onChange={handleChange}
+                     color="success"
+                     value={multiple2}
+                     onChange={handleMultiple2}
                      aria-label="Platform"
                   >
-                     <ToggleButton value="current" sx={{textTransform: 'none', color: 'white', padding: '.1rem 1rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                     <ToggleButton value="1" sx={{textTransform: 'none', color: 'white', padding: '.1rem 1rem', marginBlock: '.3rem', border: '0.5px solid green'}} aria-label = '1'>
                         <Check fontSize='small' />
                         Buy Side
                      </ToggleButton>
-                     <ToggleButton value="your filter" sx={{textTransform: 'none', color: 'white', padding: '.1rem 1rem', marginBlock: '.3rem', border: '0.5px solid green'}}>
+                     <ToggleButton value="2" sx={{textTransform: 'none', color: 'white', padding: '.1rem 1rem', marginBlock: '.3rem', border: '0.5px solid green'}} aria-label = '2'>
                         <Check fontSize='small' />
                         Sell Side
                      </ToggleButton>
